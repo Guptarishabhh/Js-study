@@ -6,13 +6,13 @@ let age = 23
 console.log();
 
 // => primitive datatype
-    // -> string used for text
-    // -> number stores numbers and integers
-    // -> Boolean stores only [true, false]
-    // -> Undefined var declared but value not b assign
-    // -> Null stanalone  value
-    // -> Symbol use to create unique values
-    // -> Bigint use for very large integers 
+    // -> [string] -> used for text
+    // -> [number] -> stores numbers and integers
+    // -> [Boolean] -> stores only [true, false]
+    // -> [Undefined] -> var declared but value not b assign
+    // -> [Null] -> stanalone  value
+    // -> [Symbol] -> use to create unique values
+    // -> [Bigint] -> use for very large integers 
 
 // => non-Primitive datatypes
     // -> [object] ->it stores data in key values
