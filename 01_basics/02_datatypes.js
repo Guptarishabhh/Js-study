@@ -21,9 +21,40 @@ console.log();
 
 // if u want to know the type of datatype use //
 
-console.log(typeof "rishabh"); 
-// it gives string
-console.log(typeof age);
-// it gives number
+// console.log(typeof "rishabh"); 
+// // it gives string
+// console.log(typeof age);
+// // it gives number
+
+// ----------------------- memory-----------------
+
+//  stack, Heap
+
+// stack is used in all (primitive datatypes)
+    // we always get a copy when derclare a var in stack memory
+
+// Heap is used in all ( Non-primitive datatypes)
+// we always get reference of original value when we derclare in heap memory
+
+let myname = "rishabhgupta"
+
+let anothername = myname
+anothername = "rishugupta"
+
+console.log(myname);
+console.log(anothername);
+
+let user1 = {
+    email: "user@gmail.com",
+    age: 22
+}
+
+let user2 = user1
+
+user2.email = "user@rishugmai.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
 
 
